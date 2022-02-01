@@ -92,7 +92,7 @@ window.addEventListener("DOMContentLoaded", function () {
           </div>
         </article>`;
   });
-  displayMenu = displayMenu.join("");
+  displayMenu = displayMenu.join(""); // did this to remove "," and make it a joined string
   console.log(displayMenu);
 
   sectionCenter.innerHTML = displayMenu;

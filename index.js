@@ -121,6 +121,6 @@ function displayMenuItems(menuItems){
             </div>
     </article>`;
     });
-    displayMenu = displayMenu.join("");
+    displayMenu = displayMenu.join(""); // Did this to remove the "," and make it a joined string
     sectionCenter.innerHTML = displayMenu;
 }
