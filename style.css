@@ -194,7 +194,7 @@ Menu
 .filter-btn {
   background: transparent;
   border-color: var(--clr-gold);
-  font-size: 1rem;
+  font-size: 2rem;
   text-transform: capitalize;
   margin: 0 0.5rem;
   letter-spacing: 1px;
